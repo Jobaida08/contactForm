@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+
+/* CSS Reset Code Start */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', serif;
+}
+
+input:focus,
+textarea:focus{
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* CSS Reset Code End */
+
+.box{
+    width: 100%;
+    border: 50px;
+}
+
+.ext{
+    width: 35%;
+    height: 100vh;
+    background-image: url("../img/ext.background.1.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    float: left;
+}
+
+.second{
+    width: 65%;
+    height: 100vh;
+    background-color: white;
+    float: left;
+}
+
+.info{
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: auto;
+}
+
+.info i,
+.info p{
+    color: #333;
+    margin-top: 10px;
+    padding: 10px 10px;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.contact-form{
+    text-align: center;
+    width: 500px;
+    height: 550px;
+    padding: 50px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 450px;
+    right: 0px;
+    margin: auto;
+}
+
+.contact-form header{
+    text-align: center;
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-weight: bold;
+    font-size: 55px;
+    color: #444;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 30px;
+    border: none;
+    border-bottom: 2px solid #444;
+    font-size: 17px;
+    font-family: ;
+}
+
+.contact-form textarea{
+    height: 100px;
+}
+
+.contact-form button{
+    width: 80%;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 10px 20px;
+    margin-top: 30px;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(rgba(165, 42, 42, 1), rgba(165, 42, 42, 1));
+}
+
+.contact-form footer{
+    text-align: center;
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: #444;
+}
